@@ -36,7 +36,7 @@ color.forEach(li => {
 })
 // random background
 let backgroundInterval;
-let statueBackground = true;
+let statueBackground = false;
 let localItem = localStorage.getItem('random_background');
 if(localItem !== null) {
     if(localItem === 'true') {
